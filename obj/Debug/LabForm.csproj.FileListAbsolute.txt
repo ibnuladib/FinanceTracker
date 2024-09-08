@@ -1,0 +1,15 @@
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.csproj.AssemblyReference.cache
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.Properties.Resources.resources
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.csproj.GenerateResource.cache
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.csproj.CoreCompileInputs.cache
+C:\Users\adib\source\repos\LabForm\LabForm\bin\Debug\LabForm.exe.config
+C:\Users\adib\source\repos\LabForm\LabForm\bin\Debug\LabForm.exe
+C:\Users\adib\source\repos\LabForm\LabForm\bin\Debug\LabForm.pdb
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.exe
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.pdb
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.MainForm.resources
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.Forms.TransAddForm.resources
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.Forms.CatAddForm.resources
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.Forms.CatDeleteForm.resources
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.Forms.TransViewForm.resources
+C:\Users\adib\source\repos\LabForm\LabForm\obj\Debug\LabForm.Forms.TransUpdateForm.resources
