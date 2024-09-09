@@ -26,7 +26,6 @@ namespace LabForm.Forms
         }
         private void TransViewForm_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'financeTrackerDataSet3.Transactions' table. You can move, or remove it, as needed.
             this.transactionsTableAdapter.Fill(this.financeTrackerDataSet3.Transactions);
 
         }

@@ -219,7 +219,7 @@
             this.Controls.Add(this.TransactionIdLabel);
             this.Controls.Add(this.label1);
             this.Name = "TransUpdateForm";
-            this.Text = "TransUpdateForm";
+            this.Text = "Update or Delete Transaction";
             this.Load += new System.EventHandler(this.TransUpdateForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

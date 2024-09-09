@@ -8,10 +8,8 @@ namespace LabForm.Models
 {
     public class Category
     {
-            // Unique identifier for each category
             public int CategoryId { get; set; }
 
-            // Name of the category (e.g., "Food", "Rent")
             public string CategoryName { get; set; }
 
             public List<Transactions> Transactions { get; set; } = new List<Transactions>();

@@ -19,8 +19,6 @@ namespace LabForm.DataBaseConnection
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-
-                // Join Transactions with Category to get CategoryName
                 string query = @"
             SELECT t.TransactionId, t.CategoryId, t.Amount, t.TransactionDate, t.TransactionType, t.Comments, c.CategoryName
             FROM Transactions t
@@ -41,7 +39,7 @@ namespace LabForm.DataBaseConnection
                                 TransactionDate = reader.GetDateTime(3),
                                 TransactionType = reader.GetString(4),
                                 Comments = reader.GetString(5),
-                                CategoryName = reader.GetString(6) // Adding CategoryName to the object
+                                CategoryName = reader.GetString(6) 
                             });
                         }
                     }
@@ -96,7 +94,6 @@ namespace LabForm.DataBaseConnection
 
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        // Safely parameterize the query
                         command.Parameters.AddWithValue("@SearchTerm", "%" + searchTerm + "%");
 
                         using (SqlDataAdapter adapter = new SqlDataAdapter(command))
@@ -113,7 +110,6 @@ namespace LabForm.DataBaseConnection
             }
             catch (Exception ex)
             {
-                // Handle and log the exception
                 MessageBox.Show("Error: " + ex.Message);
             }
 

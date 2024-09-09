@@ -24,8 +24,6 @@ namespace LabForm.Forms
             CategoryComboBox.DataSource = categories;
             CategoryComboBox.DisplayMember = "CategoryName";
             CategoryComboBox.ValueMember = "CategoryId";
-
-            // Populate TransactionTypeBox with predefined options
             TransactionTypeBox.Items.Add("Expense");
             TransactionTypeBox.Items.Add("Income");
         }
@@ -84,9 +82,8 @@ namespace LabForm.Forms
                     };
 
                     transactionRepository.AddTransaction(newTransaction);
-                    MessageBox.Show("Transaction added successfully!");
+                    MessageBox.Show("Successful");
 
-                    // Close the form after adding the transaction
                     this.Close();
                 }
                 catch (Exception ex)

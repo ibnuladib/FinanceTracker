@@ -42,9 +42,8 @@ namespace LabForm.Forms
 
                     categoryRepository.AddCategory(newCategory);
 
-                    MessageBox.Show("Transaction added successfully!");
+                    MessageBox.Show("Success");
 
-                    // Close the form after adding the transaction
                     this.Close();
                 }
                 catch (Exception ex)
