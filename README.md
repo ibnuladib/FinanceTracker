@@ -29,3 +29,7 @@ Graphical representation of net transactions over time. Pie Chart to visualize t
 Calculate and display net income or expense for a selected period.
 Real-time update of net transactions when new data is added.
 
+## Schema Diagram
+![image](https://github.com/user-attachments/assets/ceb68113-24ff-4447-87b0-a0b57c123bc9)
+
+
