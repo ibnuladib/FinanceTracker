@@ -8,7 +8,11 @@ The Finance Management Application is a Windows Forms (.NET) project designed to
 ## Techonoly Used
 #### C#, .NET, SQL
 
-## Features and Usage
+## Usage
+To run the project:
+1. Build and run the solution in Visual Studio.
+2. The main dashboard will load, allowing you to manage transactions, view reports, and more.
+## Features
 #### Robust UI:
 Clean, Sleek, Easy to Use and Functional graphical interface for any user to use. The Dashboard displays the important information and buttons without it feeling clunky.
 #### Transaction Management:
