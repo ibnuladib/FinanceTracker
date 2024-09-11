@@ -22,7 +22,11 @@ The Finance Management Application is a Windows Forms (.NET) project designed to
 3. **Update Connection String:**
    - Open the project in Visual Studio.
    - Use `Ctrl+F` to search for `connectionString` within the project files.
-   - Update the connection string to point to your local database by modifying the server name, database name, and any necessary authentication details.
+     ```csharp
+     private readonly string connectionString = "Server=(localdb)\\login;Database=FinanceTracker;Trusted_Connection=True;";
+   - Update this to:
+    ```csharp
+     private readonly string connectionString = "Server=<YOUR DATABASE SERVER/SOURCE>;Database=<DATABASENAME>;Trusted_Connection=True;";
 
 4. **Build and Run the Solution:**
    - In Visual Studio, build the solution by selecting `Build` -> `Build Solution` from the top menu.
