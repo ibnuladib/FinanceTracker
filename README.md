@@ -8,13 +8,30 @@ The Finance Management Application is a Windows Forms (.NET) project designed to
 ## Techonoly Used
 #### C#, .NET, SQL
 
-## Usage
-To run the project:
-1. Create a new database.
-2. Copy the queries from the .sql file from the SQL folder and execute them to create a clone of the database.
-3. Search the project (using Ctrl+F) and edit the connectionString to change it to your local database.
-4. Build and run the solution in Visual Studio.
-5. The main dashboard will load, allowing you to manage transactions, view reports, and more.
+## To Run the Project:
+
+1. **Create a New Database:**
+   - Open SQL Server Management Studio or your preferred SQL database management tool.
+   - Create a new database for the project.
+
+2. **Execute Database Queries:**
+   - Navigate to the `SQL` folder in your project directory.
+   - Open the `.sql` file located in that folder.
+   - Copy the queries from the `.sql` file and execute them in your new database to set up the schema and initial data.
+
+3. **Update Connection String:**
+   - Open the project in Visual Studio.
+   - Use `Ctrl+F` to search for `connectionString` within the project files.
+   - Update the connection string to point to your local database by modifying the server name, database name, and any necessary authentication details.
+
+4. **Build and Run the Solution:**
+   - In Visual Studio, build the solution by selecting `Build` -> `Build Solution` from the top menu.
+   - Run the project by selecting `Debug` -> `Start Debugging` or by pressing `F5`.
+
+5. **Access the Main Dashboard:**
+   - Once the project is running, the main dashboard will appear.
+   - From the dashboard, you can manage transactions, view reports, and utilize other features of the application.
+
 ## Features
 #### Robust UI:
 Clean, Sleek, Easy to Use and Functional graphical interface for any user to use. The Dashboard displays the important information and buttons without it feeling clunky.
