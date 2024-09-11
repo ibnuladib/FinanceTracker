@@ -25,7 +25,7 @@ The Finance Management Application is a Windows Forms (.NET) project designed to
      ```csharp
      private readonly string connectionString = "Server=(localdb)\\login;Database=FinanceTracker;Trusted_Connection=True;";
    - Update this to:
-    ```csharp
+     ```csharp
      private readonly string connectionString = "Server=<YOUR DATABASE SERVER/SOURCE>;Database=<DATABASENAME>;Trusted_Connection=True;";
 
 4. **Build and Run the Solution:**
